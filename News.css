@@ -1,0 +1,16 @@
+.box {
+    width: 1190px;
+    height: 1300px;
+    margin: 100px 150px 50px 150px;
+    background-color: white;
+}
+.box-main{
+    width: 1100px;
+    height:1240px;
+    margin-top:100px;
+    margin-right:30px;
+    margin-bottom: -30px;
+    margin-left: 30px;
+    background-color: #eeeeee;
+}
+
