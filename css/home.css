@@ -22,6 +22,7 @@ svg{
 svg:hover{
     color: #6f42c1;
 }
+
 .nav{
     background-color: #dfc2c4;
     float: right;
@@ -31,6 +32,7 @@ svg:hover{
 .nav-item{
     list-style: none;
 }
+
 footer i{
     font-size: 20px;
     color: #146c43;
