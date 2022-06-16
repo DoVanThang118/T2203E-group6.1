@@ -1,0 +1,9 @@
+.card{
+    margin: 15px auto;
+}
+a{
+    color: #e5e5e5;
+}
+a:hover{
+    color: #ee9fc8;
+}

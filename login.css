@@ -1,51 +1,16 @@
-.box-map{
-    width:1400px;
-    height:500px;
-    background-color:white;
-    margin: 30px 50px 30px 50px;
-}
-.box-container{
-    width:1400px;
-    height:150px;
-    background-color: antiquewhite;
-    margin:20px 50px 20px 50px;
-}
+
 .box-main {
     width: 700px;
     height: 600px;
     background-color: antiquewhite;
-    margin: 20px 400px 50px 400px;
+    margin: 100px auto;
 }
-
-/* ---------- FONTAWESOME ---------- */
-/* ---------- https://fortawesome.github.com/Font-Awesome/ ---------- */
-/* ---------- http://weloveiconfonts.com/ ---------- */
-
-@import url(https://weloveiconfonts.com/api/?family=fontawesome);
-
-/* ---------- ERIC MEYER'S RESET CSS ---------- */
-/* ---------- https://meyerweb.com/eric/tools/css/reset/ ---------- */
-
-@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
-
-/* ---------- FONTAWESOME ---------- */
 
 [class*="fontawesome-"]:before {
     font-family: 'FontAwesome', sans-serif;
 }
 
 /* ---------- GENERAL ---------- */
-
-body {
-    background: #f4f4f4;
-    color: #5a5656;
-    display: grid;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
-    margin: 0;
-    min-height: 100vh;
-    place-items: center;
-}
 
 a { text-decoration: none; }
 
@@ -161,4 +126,10 @@ form fieldset a:hover { text-decoration: underline; }
     height: 50px;
     text-transform: uppercase;
     width: 250px;
+}
+.box-content{
+    width:1400px;
+    height:200px;
+    background-color:antiquewhite;
+    margin: 5px 50px -20px 50px;
 }
