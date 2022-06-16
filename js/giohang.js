@@ -1,6 +1,6 @@
 /* Set rates + misc */
-var taxRate = 0.05;
-var shippingRate = 15.00;
+var taxRate = 0.1;
+var shippingRate = 30000;
 var fadeTime = 300;
 
 

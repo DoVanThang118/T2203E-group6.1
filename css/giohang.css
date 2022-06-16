@@ -52,8 +52,8 @@
 
 /* Apply clearfix in a few places */
 /* Apply dollar signs */
-.product .product-price:before, .product .product-line-price:before, .totals-value:before {
-    content: '$';
+.product .product-price:after, .product .product-line-price:after, .totals-value:after {
+    content: 'VND';
 }
 
 /* Body/Header stuff */
@@ -222,8 +222,8 @@ label {
         margin-top: 10px;
     }
 
-    .product .product-line-price:before {
-        content: 'Item Total: $';
+    .product .product-line-price:after {
+        content: 'Item Total: VND';
     }
 
     .totals .totals-item label {
